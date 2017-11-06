@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ExpandableTextView">
+        <attr name="expandable_max_line" format="integer"/>
+        <attr name="expandable_text" format="string"/>
+
+        <!-- 텍스트뷰 셋팅 -->
+        <attr name="expandable_text_width" format="reference|dimension"/>
+        <attr name="expandable_text_height" format="reference|dimension"/>
+        <attr name="expandable_text_gravity" format="enum">
+            <enum name="left" value="0"/>
+            <enum name="center" value="1"/>
+            <enum name="right" value="2"/>
+        </attr>
+        <attr name="expandable_text_ellipsize" format="enum">
+            <enum name="end" value="0"/>
+            <enum name="marquee" value="1"/>
+            <enum name="middle" value="2"/>
+            <enum name="start" value="3"/>
+        </attr>
+
+        <!-- 열고 접을 VIew 셋팅 -->
+        <attr name="expandable_view_type" format="enum">
+            <enum name="text_view" value="0"/>
+            <enum name="button" value="1"/>
+            <enum name="image" value="2"/>
+        </attr>
+        <attr name="expandable_view_width" format="integer"/>
+        <attr name="expandable_view_height" format="integer"/>
+        <attr name="expandable_view_text" format="string"/>
+        <attr name="expandable_view_src" format="reference|integer"/>
+        <attr name="expandable_view_gravity" format="enum">
+            <enum name="left" value="0"/>
+            <enum name="center" value="1"/>
+            <enum name="right" value="2"/>
+        </attr>
+    </declare-styleable>
+</resources>
